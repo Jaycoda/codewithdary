@@ -27,6 +27,11 @@ const NavBar = () => {
               FlexGrid
             </Link>
           </li>
+          <li>
+            <Link className="hover:text-blue-500" href="/page-four">
+              Input
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

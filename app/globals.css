@@ -14,7 +14,7 @@ body {
 
 @layer components {
   .container {
-    @apply w-5/6 h-4/6 grid grid-cols-4 grid-rows-2 gap-4 bg-red-300 mt-4;
+    @apply w-5/6 h-4/6 grid xl:grid-cols-4 grid-cols-2 grid-rows-2 gap-4 bg-red-300 my-10;
   }
   .quote-container {
     @apply bg-purple-700 text-white rounded-lg p-4;
